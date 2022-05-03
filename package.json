@@ -1,0 +1,52 @@
+{
+  "name": "vibes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@feathersjs/express": "^4.5.14",
+    "@feathersjs/feathers": "^4.5.12",
+    "@feathersjs/socketio": "^4.5.14",
+    "bunyan": "^1.8.15",
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0",
+    "mocha": "^9.2.2",
+    "mongodb": "^4.4.0",
+    "mongoose": "^6.2.2",
+    "npm": "^8.5.2",
+    "q": "^1.5.1",
+    "ramda": "^0.28.0",
+    "@feathersjs/authentication": "^4.5.14",
+    "@feathersjs/authentication-local": "^4.5.14",
+    "@feathersjs/authentication-oauth": "^4.5.14",
+    "@feathersjs/configuration": "^4.5.12",
+    "@feathersjs/errors": "^4.5.12",
+    "@feathersjs/transport-commons": "^4.5.14",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "feathers-mongoose": "^8.5.1",
+    "helmet": "^4.6.0",
+    "mongodb-core": "^3.2.7",
+    "serve-favicon": "^2.5.0",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "eslint": "^8.9.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-livereload": "^4.0.2",
+    "gulp-nodemon": "^2.5.0",
+    "axios": "^0.26.1",
+    "mocha": "^9.2.2",
+    "nodemon": "^2.0.15"
+  }
+}
